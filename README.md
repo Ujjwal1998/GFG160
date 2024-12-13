@@ -1,3 +1,3 @@
 # GFG 160 Challenge
 
-Solutions for GFG 160 Challenge in Javascript
+Solutions for GFG 160 Challenge in Javascript and Python
