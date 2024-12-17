@@ -11,7 +11,6 @@ def sort012(arr):
         else:
             arr[med], arr[high] = arr[high], arr[med]
             high -= 1
-        print(arr, arr[med], arr[low])
     return arr
 
 
