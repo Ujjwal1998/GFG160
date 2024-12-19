@@ -1,0 +1,9 @@
+def mergeOverlap(self, arr):
+	    arr.sort()
+	    res = [arr[0]]
+	    for s,e in arr[1:]:
+	        if s > res[-1][1]:
+	            res.append([s,e])
+            else:
+                res[-1][1] = max(e,res[-1][1])
+        return res
