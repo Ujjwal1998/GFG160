@@ -1,0 +1,17 @@
+def intersectionWithDuplicates(a, b):
+        # code here
+        a.sort()
+        b.sort()
+        ptr1 = 0
+        ptr2 = 0
+        res = set()
+        while ptr1 < len(a) and ptr2 < len(b):
+            if a[ptr1] == b[ptr2]:
+                res.add(a[ptr1])
+                ptr1 += 1
+                ptr2 += 1
+            elif a[ptr1] < b[ptr2]:
+                ptr1 += 1
+            else:
+                ptr2 += 1
+        return list(res)
