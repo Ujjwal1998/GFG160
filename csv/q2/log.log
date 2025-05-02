@@ -1,0 +1,12 @@
+System restart initiated.
+Service A starting...
+Service B starting...
+Monitoring enabled.
+%
+Configuration update applied successfully.
+Device reloaded.
+%
+Minor alert: Disk space low on /var/log.
+%
+User login detected: admin from 192.168.1.100
+%

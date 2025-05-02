@@ -1,0 +1,5 @@
+interface_id,device_hostname,bytes_out,packets_out,errors_out
+eth0-router1,router1,9500,95,0
+eth1-router1,router1,15000,150,2
+eth0-switch2,switch2,20500,205,0
+eth1-switch5,switch5,10000,100,0

@@ -1,0 +1,5 @@
+interface_id,device_hostname,bytes_in,packets_in,timestamp
+eth0-router1,router1,10000,100,1678886400
+eth1-router1,router1,5000,50,1678886401
+eth0-switch2,switch2,20000,200,1678886402
+eth0-router3,router3,15000,150,1678886403
